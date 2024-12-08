@@ -1,5 +1,5 @@
 const clientId = '616284607900428d88625e895384080c'; // Insert client ID here.
-const redirectUri = 'https://ubiquitous-cobbler-69da27.netlify.app/callback'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'http://localhost:8888/.netlify/functions/callback'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
